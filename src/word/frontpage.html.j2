@@ -1,0 +1,14 @@
+
+<div custom-style="DMP">Data Management Plan</div>
+    {%  if dc.qtn.versions %}
+        {% set version = dc.qtn.versions[-1] %}
+        <div custom-style="Version">{{version.name}}</div>
+    {% else  %}
+        <div custom-style="Version">NO VERSION</div>
+    {% endif %}
+
+<div custom-style="DatePar">
+    {{ dc.doc.created_at|datetime_format("%d %B %Y") }}
+</div>
+
+
