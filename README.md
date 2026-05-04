@@ -39,6 +39,11 @@ Adapted for CAS by
 
 ## Changelog
 
+### 2.2.0
+
+- Updated according to fw:common-horizon-europe-dmp:1.21.0
+- released 2026-05-04
+
 ### 2.1.0
 
 - New CAS fork based on Horizon Europe DMP 1.20.0

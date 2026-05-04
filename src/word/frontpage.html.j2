@@ -1,7 +1,7 @@
 
 <div custom-style="DMP">Data Management Plan</div>
-    {%  if dc.qtn.versions %}
-        {% set version = dc.qtn.versions[-1] %}
+    {%  if dc.project.versions %}
+        {% set version = dc.project.versions[-1] %}
         <div custom-style="Version">{{version.name}}</div>
     {% else  %}
         <div custom-style="Version">NO VERSION</div>
